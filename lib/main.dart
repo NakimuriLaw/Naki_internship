@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -56,21 +57,27 @@ class MyFirstPage extends StatelessWidget {
                   children: [
                     OutlinedButton(
                       onPressed: () {
-                        print("I was pressed");
+                        if (kDebugMode) {
+                          print("I was pressed");
+                        }
                       },
                       child: const Text("Thanks you"),
                     ),
                     const SizedBox(width: 10.0),
                     OutlinedButton(
                       onPressed: () {
-                        print("I was pressed");
+                        if (kDebugMode) {
+                          print("I was pressed");
+                        }
                       },
                       child: const Text("Thanks you"),
                     ),
                     const SizedBox(width: 10.0),
                     OutlinedButton(
                       onPressed: () {
-                        print("I was pressed");
+                        if (kDebugMode) {
+                          print("I was pressed");
+                        }
                       },
                       child: const Text("Thanks you"),
                     )
