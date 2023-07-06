@@ -40,11 +40,12 @@ class MyFirstPage extends StatelessWidget {
               const SizedBox(height: 20.0),
               const CircleAvatar(
                 radius: 40.0,
-                child: Text("BSU"),
+                // child: Text("BSU"),
+                backgroundImage: AssetImage("images/q1d.jpeg"),
               ),
               const SizedBox(height: 10.0),
               const Text(
-                "Students of BSU",
+                "Student of BSU",
                 style: TextStyle(
                   color: Colors.pink,
                   fontWeight: FontWeight.bold,
@@ -70,7 +71,7 @@ class MyFirstPage extends StatelessWidget {
                           print("I was pressed");
                         }
                       },
-                      child: const Text("Thanks you"),
+                      child: const Text("You are welcome"),
                     ),
                     const SizedBox(width: 10.0),
                     OutlinedButton(
@@ -79,7 +80,7 @@ class MyFirstPage extends StatelessWidget {
                           print("I was pressed");
                         }
                       },
-                      child: const Text("Thanks you"),
+                      child: const Text("It's a pressure"),
                     )
                   ],
                 ),
