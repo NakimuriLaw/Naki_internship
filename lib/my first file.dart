@@ -1,9 +1,6 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+import 'main.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -22,3 +19,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
